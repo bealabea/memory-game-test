@@ -1,0 +1,36 @@
+h1 {
+    font-weight: 800;
+
+}
+
+.cards {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    font-size: 60px;
+    background-color: cadetblue;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.cards:hover {
+    opacity: 0.8;
+}
+  
+
+.hide {
+    display: none;
+}
+
+.card-color {
+    background-color: burlywood;
+}
+
+.find {
+    background-color: gold;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor:wait;
+ }
